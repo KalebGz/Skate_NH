@@ -4,9 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base.css">
   <title>Document</title>
 </head>
 <body>
-  
+  <video src="media/test-vid.mov" muted autoplay id='background_vid'> 
+    Video is not supported on this device
+  </video>  
+
+  <script type = 'text/javascript'>
+    document.getElementById('background_vid').addEventListener(ended, videoEndHandler, false);
+
+    function videEndHandler(e){
+      console.log("Video Ended");
+    }
+
+
+  </script>
 </body>
 </html>
