@@ -9,17 +9,24 @@
 </head>
 <body>
 
+  <!-- Video background -->
   <section>
   <video src="media/test-vid.mov" muted autoplay id='background_vid'> 
     Video is not supported on this device
   </video>  
 
+  <!-- Video end listener -->
   <script type = 'text/javascript'>
-    document.getElementById('background_vid').addEventListener(ended, videoEndHandler, false);
+    document.getElementById('background_vid').addEventListener('ended', videoEndHandler, false);
 
     function videoEndHandler(e){
       console.log("Video Ended");
     }
   </script>
+
+  <!--  -->
+  <img class="logo" src="media/skate_new_haven_logo.png" alt= "Skate New Haven logo" >
+
+  
 </body>
 </html>

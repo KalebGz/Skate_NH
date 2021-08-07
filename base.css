@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    /* border: 2px solid #d42a2a; */
+    border: 2px solid #d42a2a;
     margin:0;
     padding:0; 
 }
@@ -15,4 +15,20 @@ body{
     /* bottom: 50vh; */
     margin: 0;
     padding: 0;
+    z-index: 0;
+}
+
+img{
+    /* position: absolute; */
+    position: relative;
+    z-index:1;
+    left: 500px;
+}
+/* git add . && git commit -m ""  */
+
+.logo{
+    margin: 0 auto;
+    width: 50%;
+    /* top: 100px; */
+    /* border */
 }
