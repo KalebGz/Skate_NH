@@ -8,6 +8,8 @@
   <title>Document</title>
 </head>
 <body>
+
+  <section>
   <video src="media/test-vid.mov" muted autoplay id='background_vid'> 
     Video is not supported on this device
   </video>  
@@ -15,11 +17,9 @@
   <script type = 'text/javascript'>
     document.getElementById('background_vid').addEventListener(ended, videoEndHandler, false);
 
-    function videEndHandler(e){
+    function videoEndHandler(e){
       console.log("Video Ended");
     }
-
-
   </script>
 </body>
 </html>
