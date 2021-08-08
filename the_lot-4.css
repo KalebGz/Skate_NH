@@ -1,40 +1,37 @@
-#ramp_title{
-    top: 19%;
-    left: 5%;
+#ramp_title {
+  top: 19%;
+  left: 5%;
 }
 
-#ramp_text{
-    top: 22%;
-    left: 5%;
-
+#ramp_text {
+  top: 22%;
+  left: 5%;
 }
-#ramp_image{
-    top:22%;
-    left:40%;
-}
-
-#four_stair_title{
-    top: 48%;
-    left: 5%;
+#ramp_image {
+  top: 22%;
+  left: 40%;
 }
 
-#four_stair_text{
-    top: 52%;
-    left: 5%;
-
-}
-#four_stair_image{
-    top:52%;
-    left:40%;
+#four_stair_title {
+  top: 48%;
+  left: 5%;
 }
 
+#four_stair_text {
+  top: 52%;
+  left: 5%;
+}
+#four_stair_image {
+  top: 52%;
+  left: 40%;
+}
 
-#take_me_there{
-    top: 85%;
-    left: 20%;
-    color: rgb(5, 82, 5);
-    font-weight: bold;
-    font-size: 2vw;
-  
-    /* font-size: 200px; */
-  }
+#take_me_there {
+  top: 85%;
+  left: 20%;
+  color: rgb(5, 82, 5);
+  font-weight: bold;
+  font-size: 2vw;
+
+  /* font-size: 200px; */
+}
