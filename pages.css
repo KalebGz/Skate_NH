@@ -20,7 +20,7 @@
 }
 
 
-#poster{
+#poster, #flipped_poster{
   position: absolute;
   top: 0;
   left: 0;
@@ -33,21 +33,48 @@
 }
 
 
-h2{
-  position: absolute;
-  font-size: 3vw;
-  z-index: 3;
-  color:black;
-
-}
-
-p, li{
+/*TODO: Fix text sizing issue */
+p, li, a, h2, h3{ 
   position: absolute;
   width: 65%;
-  font-size: calc((1vw + 1vh)/2.2);
+  /* Incorporate vh */
+  /* font-size: calc((1vw + 1vh)/2.2); */
+  font-size: .7vw;
   z-index: 3;
   color:black;
+  /* min-height3 240px; */
+  /* min-width: 300px; */
 
 }
 
 
+h2{
+  font-size: 3vw;
+}
+
+h3{
+  font-size: 1.5vw;
+}
+
+#next_page{
+  top: 95%;
+  left: 60%;
+  color: black;
+  font-weight: bold;
+}
+
+#prev_page{
+  top: 95%;
+  left: 10%;
+  color: black;
+  font-weight: bold;
+}
+
+.title{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.col{
+  width: 30%;
+  z-index:4;
+}
