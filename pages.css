@@ -12,7 +12,7 @@
 #poster_frame{
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 30%;
   height: calc(84vw / 1.77230769231);
   width: 45vw;
   max-width: 100%;
@@ -26,7 +26,28 @@
   left: 0;
   /* height: calc(84vw / 1.77230769231);
   width: 45vw; */
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 102%;
+  max-height: 102%;
   border-color: green;
+  z-index: 2;
 }
+
+
+h2{
+  position: absolute;
+  font-size: 3vw;
+  z-index: 3;
+  color:black;
+
+}
+
+p, li{
+  position: absolute;
+  width: 65%;
+  font-size: calc((1vw + 1vh)/2.2);
+  z-index: 3;
+  color:black;
+
+}
+
+

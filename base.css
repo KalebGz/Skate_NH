@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
-  border: 2px solid #d42a2a;
+  /* border: 2px solid #d42a2a; */
   margin: 0;
   padding: 0;
+  font-family: 'Courier New', monospace;
 }
 body {
   background-color: black;
@@ -10,7 +11,7 @@ body {
 
 .page_frame {
   position: fixed;
-  height: calc(85vw / 1.77230769231);
+  height: calc(85vw / 1.7723);
   width: 85vw;
   top: 50%;
   left: 50%;
@@ -22,6 +23,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  height: calc(85vw / 1.7723);
+  width: 85vw;
   max-width: 100%;
   max-height: 100%;
 }
