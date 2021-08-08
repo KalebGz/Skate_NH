@@ -32,13 +32,14 @@ body {
 img {
   position: absolute;
   z-index: 1;
-  /* visibility: hidden; */
+  
 }
 
 #logo {
   height: 20%;
   width: 50%;
   left: 25%;
+  visibility: hidden;
 }
 
 .nav_button:hover {
@@ -51,12 +52,14 @@ img {
   width: 15%;
   top: 40%;
   left: 2%;
+  visibility: hidden;
 }
 
 #the_lot_poster{
     top: 50%;
     left: 5%;
     transform: rotate(-22deg);
+    visibility: hidden;
 }
 
 #beinecke {
