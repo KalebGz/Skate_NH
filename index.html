@@ -24,15 +24,13 @@
 
         function videoEndHandler(e) {
           console.log("Video Ended");
-          let navItems = document.getElementsByClassName("nav_button");
-          let posters = document.getElementsByClassName("nav_button");
-          for (item of posters) {
+          let wall_items = document.getElementsByClassName("animate");
+          for (item of wall_items) {
             item.style.visibility = "visible";
           }
 
           document.getElementById("logo").style.visibility = "visible";
-          document.getElementById("the_lot_poster").style.visibility =
-            "visible";
+          document.getElementById("the_lot_poster").style.visibility ="visible";
         }
       </script>
 
@@ -44,21 +42,22 @@
       />
 
       <!-- Navigation buttons -->
-      <a href="the_lot.html">
+      <a href="the_lot/the_lot-1.html">
         <img
-          class="nav_button"
+          class="nav_button animate"
           id="the_lot"
           src="media/the_lot.png"
           alt="the_lot"
         />
       </a>
-      <!-- <img
-        class="nav_button"
+
+      <img
+        class="nav_button animate"
         id="beinecke"
         src="media/beinecke.png"
         alt="Beinecke"
       />
-
+      <!-- 
       <img
         class="nav_button"
         id="scant"
@@ -75,11 +74,20 @@
 
       <!-- Poster Paper -->
       <img
-        class="posters"
+        class="posters animate"
         id="the_lot_poster"
         src="media/lot_poster.png"
         alt="the lot"
       />
+
+      <!-- TODO: Change to Beinecke poster -->
+      <img
+        class="posters animate"
+        id="beinecke_poster"
+        src="media/lot_poster.png"
+        alt="the lot"
+      />
+
     </section>
   </body>
 </html>
