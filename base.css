@@ -62,12 +62,12 @@ img {
   height: 10%;
   width: 25%;
   top: 30%;
-  left: 55%;
+  left: 35%;
 }
 
 #beinecke_poster {
   top: 40%;
-  left: 55%;
+  left: 35%;
   transform: rotate(22deg);
 }
 
@@ -78,6 +78,11 @@ img {
   left: 60%;
 }
 
+#scant_poster {
+  top: 50%;
+  left: 60%;
+  transform: rotate(12deg);
+}
 #edgewood {
   height: 10%;
   width: 25%;

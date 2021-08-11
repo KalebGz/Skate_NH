@@ -1,0 +1,45 @@
+#title {
+  top: 13%;
+  left: 15%;
+}
+
+#description {
+  top: 20%;
+  left: 10%;
+  text-indent: 2em;
+}
+
+#recommended_times {
+  top: 57%;
+  left: 10%;
+}
+
+#time-1 {
+  top: 61%;
+  left: 15%;
+}
+
+#time-2 {
+  top: 64%;
+  left: 15%;
+}
+
+#general_tips {
+  top: 67%;
+  left: 30%;
+}
+
+#tip-1 {
+  top: 70%;
+  left: 12%;
+}
+
+#tip-2 {
+  top: 80%;
+  left: 11%;
+}
+
+#tip-3 {
+  top: 87%;
+  left: 10%;
+}
