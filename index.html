@@ -10,12 +10,19 @@
   <body>
     <!-- Video background -->
     <section class="page_frame">
-      <video  src="media/compressed-background_vid.mp4" muted autoplay id="background_vid" >
+      <video
+        src="media/compressed_background_vid.mp4"
+        muted
+        autoplay
+        id="background_vid"
+      >
         Video is not supported on this device
       </video>
+
+      <!-- document.getElementId("background_img").style.visibility="visible" -->
+      <img id="background_img" src="media/background_image.png">
       <!-- Image for debugging content  -->
-      <!-- 
-  <img id='background_vid' src="media/background.jpeg"> -->
+      
 
       <!-- Video end listener -->
       <script type="text/javascript">
@@ -29,14 +36,14 @@
           for (item of wall_items) {
             item.style.opacity = "1";
           }
-
+          document.getElementById("background_img").style.opacity="1";
         }
       </script>
 
       <!-- Logo -->
       <img
         id="logo"
-        class = "animate"
+        class="animate"
         src="media/skate_new_haven_logo.png"
         alt="Skate New Haven logo"
       />
@@ -77,7 +84,6 @@
           alt="Edgewood"
         />
       </a>
-      
 
       <!-- Posters -->
 
@@ -108,8 +114,6 @@
         src="media/scant_poster.png"
         alt="the lot"
       /> -->
-
-
     </section>
   </body>
 </html>
