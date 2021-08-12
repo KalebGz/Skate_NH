@@ -1,0 +1,134 @@
+#title {
+  top: 13%;
+  left: 40%;
+}
+
+#description {
+  top: 30%;
+  left: 10%;
+  text-indent: 2em;
+}
+
+#recommended_times {
+  top: 0%;
+  left: 0%;
+}
+
+
+
+/* #time-1 { 
+  top: 67%;
+  left: 15%;
+}
+
+#time-2 {
+  top: 77%;
+  left: 15%;
+} */
+
+#general_tips {
+  top: 70%;
+  left: 10%;
+}
+
+/* #tip-1 {
+  top: 95%;
+  left: 10%;
+}
+
+#tip-2 {
+  top: 108%;
+  left: 10%;
+}
+
+#tip-3 {
+  top: 118%;
+  left: 10%;
+} */
+
+/* .feature{
+max-width: 50%;
+  color:white;
+} */
+/* Start of features */
+/* Crack */
+img {
+  width: 30%;
+  height: 40%;
+  box-shadow: 2px 3px 20px black, 0 0 60px #743f0ae5 inset;
+  /* mix-blend-mode: hard-light; */
+  opacity: 70%;
+}
+
+#fav_features_text {
+  top: 100%;
+  left: 30%;
+}
+
+#feature-1 {
+  top: 140%;
+  left: 5%;
+}
+
+#feature-1_image {
+  top: 130%;
+  left: 50%;
+}
+
+#feature-2 {
+  top: 190%;
+  left: 5%;
+}
+
+#feature-2_image {
+  top: 180%;
+  left: 50%;
+}
+
+#feature-3 {
+  top: 240%;
+  left: 5%;
+}
+
+#feature-3_image {
+  top: 230%;
+  left: 50%;
+}
+
+#feature-4 {
+  top: 290%;
+  left: 5%;
+}
+
+#feature-4_image {
+  top: 280%;
+  left: 50%;
+}
+
+#feature-5 {
+  top: 340%;
+  left: 5%;
+}
+
+#feature-5_image {
+  top: 330%;
+  left: 50%;
+}
+
+#feature-6 {
+  top: 390%;
+  left: 5%;
+}
+
+#feature-6_image {
+  top: 380%;
+  left: 50%;
+}
+
+.take_me_there {
+  top: 430%;
+  height:10%;
+  /* left: 0%; */
+  transform: rotate(270deg);
+  border: dotted 3px rgb(5, 1, 1);
+}

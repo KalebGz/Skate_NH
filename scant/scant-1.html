@@ -1,53 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../base.css" />
     <link rel="stylesheet" href="../pages.css" />
-    <link rel="stylesheet" href="../beinecke/beinecke-1.css" />
-    <title>Newsletter #1</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../layout.css" />
+    <style>
+      #wall_background {
+        height: 400%;
+      }
+      #title {
+        left: 30%;
+      }
 
+      .take_me_there {
+        top: 380%;
+      }
+    </style>
+    <title>Newsletter #3</title>
+  </head>
+  <body>
     <section class="page_frame">
+      <section id="poster_frame">
+        <img id="wall_background" src="../media/lot_background.png" />
 
-        <img id="poster_background" src="../media/lot_background.png">
+        <div id="title">
+          <h2>Scantlebury Skatepark</h2>
+        </div>
 
-        <section id=poster_frame>
-            <img id="poster" src="../media/poster_paper.png">
-            <h2 id=title> Scantlebury</h2>
-            <p id="description">
-                Scantlebury skatepark is located behind Yale health and is the closest park to Yale’s campus. The skatepark is part of a larger park that also shares it name. Because of the limited funding and space in the park, this  skate park is quite smaller than most. What it lacks in space, it makes up for in quality because it is relatively new for a skatepark. It was actually finished about a year ago and conceived by a Yale alum J. Joseph and a friend.
+        <div id="link_to_home">
+          <a href="../index-2.html"> Home page</a>
+        </div>
 
-            </p>
-            <p id="recommended_times">
-                Recommended times to skate:
-                <ul>   
-<li id="time-1">6:00 AM to 8:00 AM </li>    
-<li id="time-2">7:00 PM to 8:30 PM</li>
-</ul>
-            </p>
+        <div id="recommended_times">
+          <p>Recommended times to skate:</p>
 
-            <p id="general_tips">General tips</p>
-            <ul>
-                <li id="tip-1"> - there is a corner store across the street called Petals Market and Pizza if you want a quick break
-                </li>
-                <li id="tip-2">- This park is very short so you might be better off avoiding it over school holidays and times when kids generally tend to be free
+          <li id="time-1">6:00 AM to 8:00 AM</li>
+          <li id="time-2">7:00 PM to 8:30 PM</li>
+          <!-- </ul> -->
+        </div>
 
-                </li>
-                <li id="tip-3"> Bring a helmet!
-                </li>
-            </ul>
-        <a id="prev_page" href="../index.html"> Home page</a>
+        <div id="description">
+          <p>
+            Scantlebury skatepark is located behind Yale health and is the
+            closest park to Yale’s campus. The skatepark is part of a larger
+            park that also shares it name. Because of the limited funding and
+            space in the park, this skate park is quite smaller than most. What
+            it lacks in space, it makes up for in quality because it is
+            relatively new for a skatepark. It was actually finished about a
+            year ago and conceived by a Yale alum J. Joseph and a friend.
+          </p>
+        </div>
 
-        <a id="next_page" href="scant-2.html"> Flip page</a>
+        <div id="general_tips">
+          <p class="title">General tips</p>
+            <br>
+          <li id="tip-1">
+            there is a corner store across the street called Petals Market and
+            Pizza if you want a quick break
+          </li>
+          <li id="tip-2">
+            This park is very short so you might be better off avoiding it
+            over school holidays and times when kids generally tend to be free
+          </li>
+          <li id="tip-3">Bring a helmet!</li>
+        </div>
 
-        </section>
-    
-    </section>  
+        <!-- Start of features -->
+        <div id="fav_features_text">
+          <h2>Favorite Features</h2>
+        </div>
 
-    
-</body>
+        <!-- Wave Ramp -->
+        <div id="feature-1" class="col">
+          <p class="title">Wave Ramp</p>
+          <p>
+            The wave ramp is the first thing that you see when you get to the
+            skate park. It is a set of 3 smoothened bumps that allow you to
+            build up speed and direct you back out through the park entrance.
+            You get to it by going up on the second platform on the side
+            opposite side of the park and then walking around the edge back
+            towards the front. You can also just run up the top ramp. I use this
+            ramp mostly for fun, but it is also great for learning how to
+            distribute your body weight for increased speed.
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-1_image"
+          src="../media/scant_photos/wave.jpeg"
+          alt="Picture of the wave ramp"
+        />
+
+        <!--Quarter Pipe -->
+        <div id="feature-2" class="col">
+          <p class="title">Quarter Pipe</p>
+          <p>
+            There are a bunch of quarter pipes around the park. These ramps are
+            great for first learning to drop in because they are just the right
+            height on my opinion. They are high enough that you have some time
+            to gather your footing before reaching the end of the ramp and they
+            are not to tall that you won’t get yourself to commit. I would
+            recommend first practicing the motion of dropping in on the angled
+            corner in the middle of the skatepark and then trying this once your
+            comfortable with slapping down the board.
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-2_image"
+          src="../media/scant_photos/q_pipe.jpeg"
+          alt="Picture of Quarter Pipe"
+        />
+
+        <!-- Lego Block -->
+        <div id="feature-3" class="col">
+          <p class="title">Lego Block</p>
+          <p>
+            The block is a short slab of concrete on the back of the skate park
+            with metal plates on the corners. The slab is slightly taller than
+            the average curb but it is still great for practicing your Ollies
+            once you feel like you’re getting comfortable with getting over
+            curbs. You can also learn to be more comfortable on the board by
+            going over the half pipe and turning onto the block.
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-3_image"
+          src="../media/scant_photos/block.jpeg"
+          alt="Picture of Lego Block"
+        />
+
+        <!-- The Courts -->
+        <div id="feature-4" class="col">
+          <p class="title">The Courts</p>
+          <p>
+            The skate park is also just a part of a larger normal park that has
+            two basketball courts and two tennis courts. These open areas are
+            great for flat ground tricks and more importantly, for being more
+            comfortable on your board. I sometimes do laps around the basketball
+            courts as fast as I can which is a great drill for building up a
+            good understanding for board foot placement.
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-4_image"
+          src="../media/scant_photos/court.jpeg"
+          alt="Picture of The Courts"
+        />
+
+        <!-- 5-Stair -->
+        <div id="feature-5" class="col">
+          <p class="title">The Platform</p>
+          <p>
+            The platform is where a lot of the traffic of the park is centered
+            at. All the half pipes point to this part of the park so you can
+            build up speed from the top of tamps and then transition to ollying
+            over the ramps, grinding over the corners or maybe even going down
+            its own ramp to build up more speed. The platform also has an angled
+            metal rail for those that want to get better at grinding rails..
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-5_image"
+          src="../media/scant_photos/platform.jpeg"
+          alt="Picture of 5-Stair"
+        />
+
+        <!-- four_stair
+        <div id="feature-6" class="col">
+          <p class="title">The 9 Stair</p>
+          <p>
+            I am only putting this out there because I am yet to see anyone
+            attempt to clear this. If you ever plan on attempting these, shoot
+            me an email and I'll bring over the snacks and drinks.
+          </p>
+        </div>
+        <img
+          class="col"
+          id="feature-6_image"
+          src="../media/scant_photos/9-stair.jpg"
+          alt="Picture of Hendrie"
+        />
+        -->
+        <div id="first_slip" class="take_me_there">
+          <a href="https://goo.gl/maps/HXBSe4BmRxz9Bhdr8" target="_blank">
+            <p>Take me there</p>
+          </a>
+        </div>
+
+        <!-- Script to make multiple copies of ^ -->
+        <script>
+          var itm = document.getElementById("first_slip");
+
+          for (let i = 0; i < 15; i++) {
+            var cln = itm.cloneNode(true);
+            console.log(cln);
+            cln.id = `${i}`;
+            cln.style.left = `${6 * i}%`;
+            sect = document.getElementById("poster_frame");
+            sect.appendChild(cln);
+          }
+        </script>
+      </section>
+    </section>
+  </body>
 </html>

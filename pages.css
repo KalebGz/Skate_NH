@@ -1,22 +1,21 @@
-#poster_background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: calc(85vw / 1.77230769231);
-  width: 85vw;
-  max-width: 100%;
-  max-height: 100%;
-}
-
 #poster_frame {
   position: absolute;
   top: 0;
-  left: 30%;
-  height: calc(84vw / 1.77230769231);
-  width: 45vw;
-  max-width: 100%;
-  max-height: 100%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
 }
+
+#wall_background {
+  width: 100%;
+  height: 450%;
+}
+/* 
+.background_scroll{
+  position: fixed;
+  overflow: auto;
+} */
 
 #poster,
 #flipped_poster {
@@ -31,22 +30,51 @@
   z-index: 2;
 }
 
-/*TODO: Fix text sizing issue */
+
+
+
 p,
 li,
 a,
 h2,
 h3 {
-  position: absolute;
-  width: 65%;
-  /* Incorporate vh */
-  /* font-size: calc((1vw + 1vh)/2.2); */
-  font-size: 0.7vw;
+    /* mix-blend-mode: darken; */
+  /* mix-blend-mode: normal; */
+  /* mix-blend-mode: multiply; */
+  /* mix-blend-mode: screen; */
+  /* mix-blend-mode: overlay; */
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: lighten; */
+  /* mix-blend-mode: color-dodge; */
+  /* mix-blend-mode: color-burn; */
+  /* mix-blend-mode: hard-light; */
+  /* mix-blend-mode: soft-light; */
+  /* mix-blend-mode: difference; */
+  /* mix-blend-mode: exclusion; */
+  /* mix-blend-mode: hue; */
+  /* mix-blend-mode: saturation; */
+  /* mix-blend-mode: color; */
+  /* mix-blend-mode: luminosity; */
+  /* mix-blend-mode: exclusion; */
+  position: relative;
+  font-size: .9vw;
   z-index: 3;
   color: black;
-  /* min-height3 240px; */
-  /* min-width: 300px; */
+  line-height: 140%;
+
 }
+
+div{
+  position: absolute;
+  background-color: #dddddddc;
+  padding: 1vw;
+  z-index: 3;
+  max-width: 80%;
+  box-shadow: 2px 3px 20px black, 0 0 60px #743f0a8f inset;
+
+}
+
+
 
 h2 {
   font-size: 3vw;
@@ -56,7 +84,7 @@ h3 {
   font-size: 1.5vw;
 }
 
-#next_page {
+/* #next_page {
   top: 95%;
   left: 60%;
   color: black;
@@ -68,13 +96,21 @@ h3 {
   left: 10%;
   color: black;
   font-weight: bold;
-}
+} */
 
 .title {
   font-weight: bold;
   text-decoration: underline;
 }
+
 .col {
-  width: 30%;
+  width: 40%;
   z-index: 4;
+}
+
+
+
+#link_to_home {
+  top: 0%;
+  right: 0%;
 }

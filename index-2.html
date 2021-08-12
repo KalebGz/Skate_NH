@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Video background -->
+    <section class="page_frame">
+      <video
+        src="media/compressed_background_vid.mp4"
+        muted
+        autoplay
+        id="background_vid"
+      >
+        Video is not supported on this device
+      </video>
+
+      <!-- document.getElementId("background_img").style.visibility="visible" -->
+      <img id="background_img" src="media/background_image.png" />
+      <!-- Image for debugging content  -->
+
+      <!-- Video end listener -->
+ 
+
+
+      <!-- Logo -->
+      <a href="about.html">
+        <img
+          id="logo"
+          class="animate nav_button"
+          src="media/skate_new_haven_logo.png"
+          alt="Skate New Haven logo"
+        />
+      </a>
+
+      <!-- Navigation buttons -->
+      <a href="the_lot/the_lot-1.html">
+        <img
+          class="nav_button animate"
+          id="the_lot"
+          src="media/the_lot.png"
+          alt="the_lot"
+        />
+      </a>
+
+      <a href="beinecke/beinecke-1.html">
+        <img
+          class="nav_button animate"
+          id="beinecke"
+          src="media/beinecke.png"
+          alt="Beinecke"
+        />
+      </a>
+
+      <a href="scant/scant-1.html">
+        <img
+          class="nav_button animate"
+          id="scant"
+          src="media/scant.png"
+          alt="Scantlebury"
+        />
+      </a>
+
+      <a href="edgewood/edgewood-1.html">
+        <img
+          class="nav_button animate"
+          id="edgewood"
+          src="media/edgewood.png"
+          alt="Edgewood"
+        />
+      </a>
+      <script type="text/javascript">
+        let wall_items = document.getElementsByClassName("animate");
+        for (item of wall_items) {
+          item.style.opacity = "1";
+        }
+        document.getElementById("background_img").style.opacity = "1";
+      </script>
+      <!-- Posters -->
+
+      <!-- <img
+        class="posters animate"
+        id="the_lot_poster"
+        src="media/lot_poster.png"
+        alt="the lot"
+      />
+
+      <img
+        class="posters animate"
+        id="beinecke_poster"
+        src="media/beinecke_poster.png"
+        alt="the lot"
+      />
+
+      <img
+        class="posters animate"
+        id="scant_poster"
+        src="media/scant_poster.png"
+        alt="the lot"
+      />
+
+      <img
+        class="posters animate"
+        id="scant_poster"
+        src="media/scant_poster.png"
+        alt="the lot"
+      /> -->
+    </section>
+  </body>
+</html>
