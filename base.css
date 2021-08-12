@@ -38,18 +38,40 @@ img {
   height: 20%;
   width: 50%;
   left: 25%;
-  visibility: hidden;
+  mix-blend-mode: difference;
+  transition:opacity 2s linear;
 }
-
+.nav_button {
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: normal; */
+  /* mix-blend-mode: multiply; */
+  /* mix-blend-mode: screen; */
+  /* mix-blend-mode: overlay; */
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: lighten; */
+  /* mix-blend-mode: color-dodge; */
+  /* mix-blend-mode: color-burn; */
+  /* mix-blend-mode: hard-light; */
+  /* mix-blend-mode: soft-light; */
+  /* mix-blend-mode: difference; */
+  mix-blend-mode: exclusion;
+  /* mix-blend-mode: hue; */
+  /* mix-blend-mode: saturation; */
+  /* mix-blend-mode: color; */
+  /* mix-blend-mode: luminosity; */
+  transition:opacity 5s linear;
+  
+}
 .nav_button:hover {
   transform: scale(1.3);
 }
 
 #the_lot {
   height: 10%;
-  width: 15%;
-  top: 40%;
-  left: 2%;
+  width: 20%;
+  top: 50%;
+  left: 1%;
+  transform: rotate(-12deg);
 }
 
 #the_lot_poster {
@@ -63,6 +85,7 @@ img {
   width: 25%;
   top: 30%;
   left: 35%;
+  transform: rotate(6deg);
 }
 
 #beinecke_poster {
@@ -73,7 +96,7 @@ img {
 
 #scant {
   height: 10%;
-  width: 25%;
+  width: 15%;
   top: 40%;
   left: 60%;
 }
@@ -87,7 +110,7 @@ img {
   height: 10%;
   width: 25%;
   top: 60%;
-  left: 60%;
+  left: 70%;
 }
 
 .posters {
@@ -95,6 +118,6 @@ img {
   width: 10%;
 }
 
-.animate{
-    visibility: hidden;
+.animate {
+  opacity:0;
 }

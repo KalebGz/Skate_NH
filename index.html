@@ -10,9 +10,10 @@
   <body>
     <!-- Video background -->
     <section class="page_frame">
-      <video src="media/test-run.mp4" muted autoplay id="background_vid">
+      <video  src="media/test-run.mp4" muted autoplay id="background_vid" >
         Video is not supported on this device
       </video>
+      <!-- Image for debugging content  -->
       <!-- 
   <img id='background_vid' src="media/background.jpeg"> -->
 
@@ -26,18 +27,16 @@
           console.log("Video Ended");
           let wall_items = document.getElementsByClassName("animate");
           for (item of wall_items) {
-            item.style.visibility = "visible";
+            item.style.opacity = "1";
           }
 
-          document.getElementById("logo").style.visibility = "visible";
-          document.getElementById("the_lot_poster").style.visibility =
-            "visible";
         }
       </script>
 
       <!-- Logo -->
       <img
         id="logo"
+        class = "animate"
         src="media/skate_new_haven_logo.png"
         alt="Skate New Haven logo"
       />
@@ -69,30 +68,26 @@
           alt="Scantlebury"
         />
       </a>
-      <!-- 
-      <img
-        class="nav_button"
-        id="scant"
-        src="media/scant.png"
-        alt="scant"
-      />
 
-      <img
-        class="nav_button"
-        id="edgewood"
-        src="media/edgewood.png"
-        alt="edgewood"
-      /> -->
+      <a href="edgewood/edgewood-1.html">
+        <img
+          class="nav_button animate"
+          id="edgewood"
+          src="media/edgewood.png"
+          alt="Edgewood"
+        />
+      </a>
+      
 
-      <!-- Poster Paper -->
-      <img
+      <!-- Posters -->
+
+      <!-- <img
         class="posters animate"
         id="the_lot_poster"
         src="media/lot_poster.png"
         alt="the lot"
       />
 
-      <!-- TODO: Change to Beinecke poster -->
       <img
         class="posters animate"
         id="beinecke_poster"
@@ -101,11 +96,20 @@
       />
 
       <img
-      class="posters animate"
-      id="scant_poster"
-      src="media/scant_poster.png"
-      alt="the lot"
-    />
+        class="posters animate"
+        id="scant_poster"
+        src="media/scant_poster.png"
+        alt="the lot"
+      />
+
+      <img
+        class="posters animate"
+        id="scant_poster"
+        src="media/scant_poster.png"
+        alt="the lot"
+      /> -->
+
+
     </section>
   </body>
 </html>
