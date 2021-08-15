@@ -78,8 +78,8 @@ img {
 }
 
 #the_lot {
-  height: 7%;
-  width: 15%;
+  height: 10%;
+  width: 18%;
   top: 40%;
   left: 2%;
   /* transform: rotate(-12deg); */
@@ -138,7 +138,7 @@ img {
   height: 10%;
   width: 25%;
   top: 60%;
-  left: 40%;
+  left: 70%;
   mix-blend-mode: normal;
 }
 
