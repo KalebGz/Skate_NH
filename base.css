@@ -17,6 +17,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: black;
 }
 
 #background_vid {
@@ -27,6 +28,7 @@ body {
   width: 85vw;
   max-width: 100%;
   max-height: 100%;
+  transition: opacity 1s linear;
 }
 
 #background_img {
@@ -38,7 +40,8 @@ body {
   max-width: 100%;
   max-height: 100%;
   opacity: 0;
-  transition:opacity 0.5s linear;
+  transition: opacity 1s linear;
+  background-color: black;
 }
 
 img {
@@ -51,7 +54,7 @@ img {
   width: 50%;
   left: 25%;
   mix-blend-mode: difference;
-  transition:opacity 2s linear;
+  transition: opacity 2s linear;
 }
 .nav_button {
   /* mix-blend-mode: darken; */
@@ -71,10 +74,8 @@ img {
   /* mix-blend-mode: saturation; */
   /* mix-blend-mode: color; */
   /* mix-blend-mode: luminosity; */
-  transition:opacity 5s linear;
-  
+  transition: opacity 5s linear;
 }
-
 
 #the_lot {
   height: 7%;
@@ -109,6 +110,23 @@ img {
   width: 15%;
   top: 45%;
   left: 60%;
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: normal; */
+  /* mix-blend-mode: multiply; */
+  mix-blend-mode: screen;
+  /* mix-blend-mode: overlay; */
+  /* mix-blend-mode: darken; */
+  /* mix-blend-mode: lighten; */
+  /* mix-blend-mode: color-dodge; */
+  /* mix-blend-mode: color-burn; */
+  /* mix-blend-mode: hard-light; */
+  /* mix-blend-mode: soft-light; */
+  /* mix-blend-mode: difference; */
+  /* mix-blend-mode: exclusion; */
+  /* mix-blend-mode: hue; */
+  /* mix-blend-mode: saturation; */
+  /* mix-blend-mode: color; */
+  /* mix-blend-mode: luminosity; */
 }
 
 #scant_poster {
@@ -120,7 +138,8 @@ img {
   height: 10%;
   width: 25%;
   top: 60%;
-  left: 70%;
+  left: 40%;
+  mix-blend-mode: normal;
 }
 
 .posters {
@@ -129,9 +148,8 @@ img {
 }
 
 .animate {
-  opacity:0;
+  opacity: 0;
 }
-
 
 .nav_button:hover {
   transform: scale(1.3);

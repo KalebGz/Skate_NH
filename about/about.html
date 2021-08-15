@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="pages.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="stylesheet" href="../pages.css" />
+    <link rel="stylesheet" href="about.css" />
 
     <style>
-
-      #info{
-          left: 10%;
-          top: 20%;
+      #info {
+        left: 10%;
+        top: 20%;
       }
 
       #link_to_home {
@@ -25,9 +25,9 @@
     <section class="page_frame">
       <section id="poster_frame">
         <img id="wall_background" src="../media/lot_background.png" />
-        
+
         <div id="link_to_home">
-        <a  href="index-2.html"> Home Page</a>
+          <a href="../index-2.html"> Home Page</a>
         </div>
 
         <div id="info">
@@ -53,17 +53,15 @@
             scene.
           </p>
           <br />
+
           <h3>Subscription Form</h3>
+          <br />
           <form method="POST" name="newsletter_subscribers" netlify>
-            <input
-              name="name"
-              type="text"
-              placeholder="Enter your name"
-            />
+            <input name="name" type="text" placeholder="Enter your name" />
             <br />
             <input name="email" type="text" placeholder="Enter your email" />
             <br />
-            <button type="submit">Sign me up!</button>
+            <button id="submit" type="submit">Sign me up!</button>
           </form>
         </div>
       </section>

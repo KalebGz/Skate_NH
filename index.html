@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="base.css" />
+    <link href="media/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
     <title>Document</title>
   </head>
   <body>
@@ -19,9 +21,10 @@
         Video is not supported on this device
       </video>
 
-      <!-- document.getElementId("background_img").style.visibility="visible" -->
-      <img id="background_img" src="media/background_image.png" />
       <!-- Image for debugging content  -->
+      <!-- <img id="background_img" src="media/background_image.png" /> -->
+      <!-- <img id="background_img" src="media/black.jpg" /> -->
+      
 
       <!-- Video end listener -->
       <script type="text/javascript">
@@ -31,16 +34,21 @@
 
         function videoEndHandler(e) {
           console.log("Video Ended");
+          // Animate all the butttons
           let wall_items = document.getElementsByClassName("animate");
           for (item of wall_items) {
             item.style.opacity = "1";
           }
-          document.getElementById("background_img").style.opacity = "1";
+          // Animate clearer image coming in
+          document.getElementById("background_img").style.opacity = ".8";
+          // Remove Video from screen
+          var vid= document.getElementById('background_vid');
+          vid.style.opacity = "0";
         }
       </script>
 
       <!-- Logo -->
-      <a href="about.html">
+      <a href="about/about.html">
         <img
           id="logo"
           class="animate nav_button"
